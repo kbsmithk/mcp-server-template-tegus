@@ -3,7 +3,7 @@ services:
     name: poke-tegus
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python src/server.py
+    startCommand: python server.py
     envVars:
       - key: TEGUS_EMAIL
         sync: false
